@@ -76,7 +76,7 @@ for i in range(500):
 # print(df["Installation Date"])
 r = pd.DataFrame.from_dict(new_stuff)
 # writing into the file
-r.to_csv("C:/Users/Andi/PycharmProjects/hackathon_2023/RefinedDataset.csv", index=False)
+r.to_csv("RefinedDataset.csv", index=False)
 
 # elevator_ = pd.DataFrame.from_dict(elevator_stuff)
 # plumbing_system_ = pd.DataFrame.from_dict(plumbing_system_stuff)
