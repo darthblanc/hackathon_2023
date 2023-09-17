@@ -15,7 +15,7 @@ from sklearn.model_selection import cross_val_score
 # import interface
 
 def load():
-    input_file = "/RefinedDataset.csv"
+    input_file = "/hackathon_2023/machine_learning/RefinedDataset.csv"
 
     df = pd.read_csv(input_file, header=0)
 
